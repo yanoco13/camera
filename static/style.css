@@ -1,23 +1,15 @@
 body {
     background-color: #ccc;
-    color: red;
 }
-
+.title {
+    color : red;
+}
 .header {
     color : red;
     background-color: #ccc;
     text-align: center;
 }
 
-.belt_nikon{
-    width: auto;
-    height: 360px;
-    overflow-x: scroll;
-}
-
-.belt_nikon>div{
-    display: flex;
-}
 .belt_nikon img {
     width: 100px; /* 任意の幅に設定 */
     height: auto; /* 高さは自動調整されます */
@@ -41,4 +33,8 @@ body {
 
 .search_box input {
     padding: 3px 0 3px 2em; /* アイコンを設置するため左の余白を多めに指定*/
+}
+
+.nikon-title{
+    color: yellow;
 }

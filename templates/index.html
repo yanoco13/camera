@@ -7,14 +7,28 @@
     </head>
     <body>
         <header class = "header">
-            <h1 name = "title">CameraDotRenz</h1>
+            <h1 class = "title">CameraDotRenz</h1>
             <div class = "search_box">
-                <input type = "text" placeholder="カメラを検索してください">
+                <input type = "text" placeholder="カメラを検索">
             </div>
         </header>
         <div class="belt_nikon">
             <div class = "container_nikon">
+                <h2 class = "nikon-title">Nikon</h2>
+                <hr>
                 <img src="{{ url_for('static', filename='images/NikonZ8.jpg') }}">
+            </div>
+        </div>
+        <div class = "belt-canon">
+            <div class = "container_canon">
+                <h2 class = "canon-title">Canon</h2>
+                <hr>
+            </div>
+        </div>
+        <div class = "belt-sony">
+            <div class = "container_sony">
+                <h2 class = "sony-title">Sony</h2>
+                <hr>
             </div>
         </div>
     </body>
